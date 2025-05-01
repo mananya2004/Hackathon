@@ -104,14 +104,12 @@ questions = [
     }
 
 ]
-
 # Create Tkinter window
 root = tk.Tk()
 root.title("MCQ Quiz")
 
 # Create MCQQuizGUI instance
 quiz_gui = MCQQuizGUI(root, questions)
-
 root.mainloop()
 
 
